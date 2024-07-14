@@ -1,0 +1,175 @@
+img {
+	flex: 1 1 150px;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.container {
+	font-family: 'Comic Sans MS', cursive;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-items: center;
+	gap: 25px;
+	margin: 0;
+}
+
+.s0, .footer {
+	background: #1F2937;
+}
+
+.s0 {
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.footer {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.header {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 18px;
+}
+
+.logo {
+	font-size: 24px;
+	color: #F9FAF8;
+}
+
+a {
+	text-decoration: none;
+	color: #E5E7EB;
+	gap: 25px;
+}
+
+.s1 {
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px;
+	align-self: center;
+}
+
+.left {
+	flex: 1;
+	flex-flow: column wrap;
+	align-content: center;
+	justify-content: center;
+	justify-items: flex-start;
+	align-items: center;
+}
+
+.title {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+.secondary-text {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.right {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.chinatown {
+	border: 2px solid #3882F6;
+	border-radius: 3px;
+}
+
+.s2 {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	text-align: center;
+	padding: 0 18px;
+}
+
+.info {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+.strip {
+	display: flex;
+	flex: 1;
+	justify-content: space-evenly;
+}
+
+.box {
+	flex: 1;
+	max-width: 150px;
+	gap: 25px;
+}
+
+.image {
+	border: 4px solid #3882F6;
+	border-radius: 6px;
+}
+
+.s3 {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background: #E5E7EB;
+	font-weight: lighter;
+	padding: 0 18px;
+	justify-content: center;
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1F2937;
+}
+
+.author {
+	align-self: flex-end;
+}
+
+.s4 {
+	background: #3882F6;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	padding: 18px;
+	border-radius: 6px;
+}
+
+button {
+	background: #3882F6;
+	color: #F9FAF8;
+	font-weight: 400;
+	flex-shrink: 0;
+	border: 1px solid lightblue;
+	border-radius: 5px;
+	padding: 4px 18px;
+}
+
+.c2a {
+	flex: 1;
+	color: #F9FAF8;
+	align-self: center;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 52px;
+	color: #E5E7EB;
+}
